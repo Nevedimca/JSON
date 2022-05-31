@@ -1,0 +1,62 @@
+JSON
+	 4. Создать внешний репозиторий c названием JSON.
+https://github.com/Nevedimca/JSON
+
+ 	5. Клонировать репозиторий JSON на локальный компьютер.
+Oleksandrs-iMac:Terminal macssd$ git clone git@github.com:Nevedimca/JSON.git
+Cloning into 'JSON'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+ 	6. Внутри локального JSON создать файл “new.json”.
+Oleksandrs-iMac:json macssd$ touch new.json
+
+ 	7. Добавить файл под гит.
+Oleksandrs-iMac:json macssd$  git add new.json
+
+ 	8. Закоммитить файл.
+Oleksandrs-iMac:json macssd$ git commit -m "add new.json"
+[main 46022c2] add new.json
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 new.json
+
+ 	9. Отправить файл на внешний GitHub репозиторий.
+Oleksandrs-iMac:json macssd$ git commit -m "add new.json"
+[main 46022c2] add new.json
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 new.json
+Oleksandrs-iMac:json macssd$ git push
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 306 bytes | 306.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To github.com:Nevedimca/JSON.git
+   3b88916..46022c2  main -> main
+
+ 	10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+Oleksandrs-iMac:json macssd$ vim new.json
+ 
+FULL NAME:
+Oleksandr O.M.
+Age:
+33
+Number of pets:
+0
+Future desired salary
+1000$
+
+
+
+	11. Отправить изменения на внешний репозиторий.
+ 12. Создать файл preferences.json
+ 13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+ 14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+ 15. Отправить сразу 2 файла на внешний репозиторий.
+ 16. На веб интерфейсе создать файл bug_report.json.
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+ 19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 20. Синхронизировать внешний и локальный репозиторий JSON
