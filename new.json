@@ -1,8 +1,6 @@
-FULL NAME:
-Oleksandr O.M.
-Age:
->33
-Number of pets:
-0
-Future desired salary
-1000$
+{
+   "FULL NAME":"Oleksandr O.M.",
+   "Age":33,
+   "Number of pets":0,
+   "Future desired salary":1000
+}
