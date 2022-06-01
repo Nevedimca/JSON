@@ -92,4 +92,5 @@ github.com > commit new file
 github.com > commit changes
 
  20. Синхронизировать внешний и локальный репозиторий JSON
+Git checkout main > git pull
 
