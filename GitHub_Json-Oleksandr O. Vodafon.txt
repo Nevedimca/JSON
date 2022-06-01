@@ -38,10 +38,10 @@ To github.com:Nevedimca/JSON.git
 vim new.json
  
 {
-   "FULL NAME":"Oleksandr O.M.",
+   "FULL_NAME":"Oleksandr O.M.",
    "Age":33,
-   "Number of pets":null,
-   "Future desired salary":1000
+   "Number_of_pets":null,
+   "Future_desired_salary":1000
 }
 
 
@@ -56,11 +56,11 @@ touch preferences.json
 vim preferences.json
 
 {
-   "Favorite movie":"Terminator",
-   "Favourite TV show":"Gods",
-   "Favorite food":"delicious",
-   "Favorite time of year":"Spring",
-   "Side you would like to visit":"Japan"
+   "Favorite_movie":"Terminator",
+   "Favourite_TV_show":"Gods",
+   "Favorite_food":"delicious",
+   "Favorite_time_of_year":"Spring",
+   "Side_you_would_like_to_visit":"Japan"
 }
 
  	14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON 
