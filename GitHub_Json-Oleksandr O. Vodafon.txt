@@ -39,7 +39,7 @@ Oleksandrs-iMac:json macssd$ vim new.json
 {
    "FULL NAME":"Oleksandr O.M.",
    "Age":33,
-   "Number of pets":0,
+   "Number of pets”:null,
    "Future desired salary":1000
 }
 
@@ -62,12 +62,15 @@ vim preferences.json
    "Side you would like to visit":"Japan"
 }
 
- 	14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
-touch sklls.json > vim sklls.json
+ 	14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON touch sklls.json > vim sklls.json
 
-1. Basic theory
-2. What is a client-server architecture.
-3. HTTP Methods of requests to the server.
+{
+   "Skill":[
+   "Basic theory SDLC, STLC.",
+    "HTTP Methods of requests to the server",
+    "What is JSON, XML. Their structure"
+    ]
+}
 
  15. Отправить сразу 2 файла на внешний репозиторий.
  16. На веб интерфейсе создать файл bug_report.json.
