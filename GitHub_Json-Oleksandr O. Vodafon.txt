@@ -34,24 +34,25 @@ To github.com:Nevedimca/JSON.git
    3b88916..46022c2  main -> main
 
  	10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
-Oleksandrs-iMac:json macssd$ vim new.json
+
+vim new.json
  
 {
    "FULL NAME":"Oleksandr O.M.",
    "Age":33,
-   "Number of pets”:null,
+   "Number of pets":null,
    "Future desired salary":1000
 }
 
 
-
 	11. Отправить изменения на внешний репозиторий.
-git status > git add new.json > git commit -am "change new.json" > 
+git status > git add new.json > git commit -am "change new.json" > git push
 
  	12. Создать файл preferences.json
 touch preferences.json
 
  	13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое 	время года, сторона которую хотели бы посетить) в формате JSON.
+
 vim preferences.json
 
 {
@@ -62,7 +63,9 @@ vim preferences.json
    "Side you would like to visit":"Japan"
 }
 
- 	14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON touch sklls.json > vim sklls.json
+ 	14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON 
+
+touch sklls.json > vim sklls.json
 
 {
    "Skill":[
